@@ -24,7 +24,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/dreams-hotel-portal">
           <ScrollToTop />
           <Navbar />
           <Routes>
